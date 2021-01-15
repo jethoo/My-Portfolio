@@ -1,0 +1,106 @@
+div.headerStyle{
+    background-color: #313244;
+    text-align: center;
+    border-top: 5px solid #808080;
+   
+    clip-path: polygon(
+        0% 0%,         
+        100% 0%,         
+        100% 200%,         
+        0% 85%      
+      );
+}
+
+li.nav-item {
+    font-weight: bold;
+}
+
+div.headerStyle .col-3{
+    padding-left: 0;
+}
+
+
+
+img.headerImage {
+    width:100%;
+    height:100%;
+    opacity:0.3;
+}
+
+.img-fluid{
+    max-width: 100%;
+    height:auto;
+}
+
+h1.myName{
+    font-family: cursive;
+    color:antiquewhite;
+    font-weight: bold;
+    font-size:8vw;
+    margin-top:8%;
+}
+
+p.titleStyle{
+    font-size:4vw;
+    color:antiquewhite;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+.more-button{
+   background:#313244;
+   color:#FE7877;
+   font-size:2.5vw;
+   font-weight: 500;
+   margin-top:7%;
+   margin-bottom:4%;
+   margin-right:5px;
+   border-radius: 2%;
+   border: 1px solid #fff;
+   box-shadow: 0 0 1px #fff;
+}
+.more-button:hover{
+    background-color:#FE7877;
+    color:#313244;
+    font-weight:bold;
+}
+
+p{text-align: center;}
+
+
+.navbar-nav .nav-link {
+    
+    float: right;
+    margin-right: 12px;
+    letter-spacing: 3px;
+    font-size: 15px;
+    
+}
+
+.nav-link { 
+    color:#FE7877 !important;
+    opacity:0.7;
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+    opacity:1;
+}
+
+.navbar-toggler {
+   
+    font-size: 2vw;
+    line-height: 1;
+    border: 1.5px solid #fff !important;
+    border-radius: .25rem;
+    background: #FE7877;
+    opacity: 0.8;
+    margin-top:5px;
+}
+
+.navbar-toggler:hover{
+    background: #FE7877;
+   
+}
+

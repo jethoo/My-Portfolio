@@ -1,0 +1,116 @@
+div.tech{
+    text-align: center;
+    margin-bottom:6%;
+}
+
+h1.techHead{
+    color:#313244; 
+    margin-top:4%;
+    margin-bottom:3%;
+    font-size: 40px;
+    text-shadow: 2px 1px 1px #000;
+}
+
+.upper-div {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    border-radius: 3px;
+    height: 18px;
+    margin-top: 1.9%;
+    box-shadow: 0 0 2px 1px cornflowerblue;
+    text-align: left;
+   
+}
+
+.skills-div > span {
+    color:blanchedalmond;
+    text-transform: uppercase;
+    font-size: medium;
+    font-family: Arial, Calibri, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left:10px;
+}
+
+.skills-div {
+    height: 18px;
+    border-radius: 3px;
+}
+
+.html {
+    background-color:#E54D27;
+    width: 93%;
+}
+
+.css{
+    background-color:#016FB8;
+    width: 91%;
+}
+
+.javascript{
+    background-color: darkseagreen;
+    width: 84%;
+}
+
+.bootstrap{
+    background-color: #563D7B;
+    width: 88%;
+}
+
+.react{
+    background-color:#63DBFB;
+    width:90%;
+}
+
+.redux{
+    background-color: #764ABC;
+    width:86%;
+}
+
+.swift{
+    background-color:darkseagreen;
+    width:88%;
+}
+
+.c{
+    background-color: #649AD2;
+    width:50%; 
+}
+
+.java{
+    width: 75%;
+    background-color:#5381A1;
+}
+
+.mysql{
+    background-color: #F8971D;
+    width: 88%;
+}
+
+.csharp {
+    background-color: #953DAC;
+    width:75%; 
+}
+
+.node{
+    background-color: #8D262D;
+    width:75%;
+}
+
+.php{
+    background-color: #333;
+    width:75%;
+}
+
+.git{
+    background-color: #F15033;
+    width:90%;
+}
+
+.linux{
+    background-color:#020202;
+    width:93%;
+}
+
+

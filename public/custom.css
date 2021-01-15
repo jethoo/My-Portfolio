@@ -1,0 +1,36 @@
+/* font-face */
+@font-face {
+    font-family: 'AnonymousPro';
+    src: './fonts/AnonymousPro-Regular.ttf' format('truetype');
+}  
+@font-face {
+    font-family: 'Alegreya-Regular';
+    src: './fonts/Alegreya-Regular.ttf' format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}  
+@font-face {
+    font-family: 'ProzaLibre';
+    src: './fonts/ProzaLibre-Regular.ttf' format('truetype');
+}  
+@font-face {
+    font-family: 'ostrich';
+  src: './fonts/ostrich-regular.ttf' format('truetype');
+}  
+@font-face {
+    font-family: 'CaviarDreams';
+  src: './fonts/CaviarDreams.ttf' format('truetype');
+}  
+@font-face {
+    font-family: 'Antonio-Regular';
+  src: './fonts/Antonio-Regular.ttf' format('truetype');
+}  
+
+h1.myName{
+    font-family: "ProzaLibre" !important;
+    color: #FE7877 !important;
+    text-shadow: 12px 12px 12px #000;
+    font-size: 6vw !important;
+    font-weight: 600 !important;
+}
+
