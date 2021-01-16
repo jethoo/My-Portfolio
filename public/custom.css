@@ -28,7 +28,7 @@
 
 h1.myName{
     font-family: "ProzaLibre" !important;
-    color: #FE7877 !important;
+    --color: #FE7877 !important;
     text-shadow: 12px 12px 12px #000;
     font-size: 6vw !important;
     font-weight: 600 !important;
@@ -43,4 +43,25 @@ h1.myName{
 
 .currentBox{
   text-shadow: 4px 4px 12px #000;
+}
+
+.btn-info{
+  background:#313244 !important;
+  color:#FE7877 !important;
+  border-radius: 0% !important;
+  font-size:20px !important;
+  font-weight: 500 !important;
+  margin-top:0.2% !important;
+  margin-bottom:4% !important;
+  margin-right:5px !important;
+  margin-left:5px !important;
+  border-radius: 5% !important;
+  border: 1px solid #fff !important;
+  box-shadow: 0 0 1px #fff !important;
+}
+
+.btn-info:hover{
+   background-color:#FE7877 !important;
+   color:#313244 !important;
+   font-weight:bold !important;
 }

@@ -26,7 +26,7 @@ class Time extends Component {
                                         iconStyle={{ background: 'rgb(254, 120, 119)', color: '#fff' }}
                                         
                                     >
-                                        <h3 className="vertical-timeline-element-title"></h3>
+                                        
                                         <h4 className="vertical-timeline-element-subtitle">MTA Certification 98_366</h4>
                                         <p>
                                         Microsoft Certified in Networking Fundamentals
@@ -36,7 +36,7 @@ class Time extends Component {
                                         className="vertical-timeline-element--work"
                                         iconStyle={{ background: 'rgb(250, 235, 215)', color: '#fff' }}
                                     >
-                                        <h3 className="vertical-timeline-element-title"></h3>
+                                        
                                         <h4 className="vertical-timeline-element-subtitle">MTA Certification 98_349</h4>
                                         <p>
                                             Microsoft Certified in Windows Server Administration Fundamentals
@@ -47,7 +47,7 @@ class Time extends Component {
                                         iconStyle={{ background: 'rgb(254, 120, 119)', color: '#fff' }}
                                         
                                     >
-                                        <h3 className="vertical-timeline-element-title"></h3>
+                                       
                                         <h4 className="vertical-timeline-element-subtitle">MTA Certification 98_361</h4>
                                         <p>
                                             Microsoft Certified in Software Development Fundamentals(C#)
@@ -67,7 +67,7 @@ class Time extends Component {
                                         className="vertical-timeline-element--education"
                                         iconStyle={{ background: 'rgb(254, 120, 119)', color: '#fff' }}
                                     >
-                                        <h3 className="vertical-timeline-element-title"></h3>
+                                        
                                         <h4 className="vertical-timeline-element-subtitle">Bachelor's Degree Completion From TURKU UAS</h4>
                                         <p>
                                         Engineering Degree In Information Technology

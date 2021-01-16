@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card, CardTitle, CardBody, CardText, CardFooter } from 'reactstrap';
+import { Card, CardBody, CardText, CardFooter } from 'reactstrap';
 
 const CurrentComponent = () => {
     return (
