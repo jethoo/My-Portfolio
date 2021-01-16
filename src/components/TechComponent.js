@@ -5,7 +5,7 @@ import '../styles/Tech.css';
 function Tech() {
     return (
        
-            <div className="container tech" id="tech" data-aos="zoom-in">
+            <div className="container tech" data-aos="zoom-in" id="/skills">
                 <div className="row">
                         <div className="col-md-12 col-lg-12">
                             <h1 className="techHead">Technical Skills</h1>

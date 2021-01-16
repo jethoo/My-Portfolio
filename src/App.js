@@ -1,8 +1,14 @@
 import React, { Component } from 'react';
 import './App.css';
 import ReactGA from 'react-ga';
-import Main from '../src/components/MainComponent';
-
+import HeaderComponent from './components/HeaderComponent';
+import About from './components/AboutComponent';
+import Tech from './components/TechComponent';
+import Time from './components/TimeComponent';
+import Project from './components/ProjectComponent';
+import Contact from './components/ContactComponent';
+import Footer from './components/FooterComponent';
+import Current from './components/CurrentComponent';
 
 function initializeAnalytics(){
   ReactGA.initialize("UA-160880705-1");
@@ -14,11 +20,16 @@ class App extends Component {
   render() {
     initializeAnalytics();
     return (
-     
-            <div >
-              <Main />
-            </div>
-       
+      <>
+        <HeaderComponent />
+        <About />
+        <Current />
+        <Time />
+        <Tech />
+        <Project />
+        <Contact />
+        <Footer />
+      </>
     );
   }
 }

@@ -1,10 +1,11 @@
 import React from 'react';
 import '../styles/ProjectStyle.css';
+import { Button, Card } from 'reactstrap';
 
 function Project() {
     return (
        
-            <div className="container-fluid project-style" id="project">
+            <div className="container-fluid project-style" id="/project">
                 <div className="row ">
                     <div className="col-12">
                         <p className="projectHead">Personal Projects</p>
@@ -33,6 +34,7 @@ function Project() {
                     <a href="https://limitless-forest-49423.herokuapp.com/" target="_blank"><img src="/assets/images/2.png" className="project-img img-fluid"/></a>
                 </div>
             </div>
+       
         </div>
        
     );

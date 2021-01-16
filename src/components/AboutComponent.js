@@ -9,7 +9,7 @@ function About() {
 
     return (
        
-            <div className="container-fluid" id="about" data-aos="fade-up">
+            <div className="container-fluid" data-aos="fade-up" id="/about">
                 <div className="row ">
                         <div className="col-10 ">
                            <Card className="aboutCard">

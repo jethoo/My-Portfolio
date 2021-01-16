@@ -6,9 +6,9 @@ import 'react-vertical-timeline-component/style.min.css';
 class Time extends Component {
     render(){
         return (
-            <div className="container-fluid TimeStyle" id="time">
+            <div className="container-fluid TimeStyle" id="/education">
                         <div className="row">
-                                <div class="col-md-12">
+                                <div className="col-md-12">
                                     <p className="certHead">Education</p>
                                 <VerticalTimeline>
                                     <VerticalTimelineElement

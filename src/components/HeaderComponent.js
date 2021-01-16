@@ -1,7 +1,6 @@
 import React , { Component } from 'react';
 import '../styles/HeaderStyle.css';
-import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink , Button} from 'reactstrap';
-
+import { Button, NavItem, NavLink, Nav, Navbar, NavbarToggler, NavbarBrand, Collapse } from 'reactstrap';
 class HeaderComponent extends Component {
     constructor(props){
         super(props);
@@ -21,20 +20,22 @@ class HeaderComponent extends Component {
    render(){
        return (
     <>
-        <div className="container-fluid headerStyle" id="header">
+      
+        <div className="container-fluid headerStyle">
             <div className="row">
                 <div className="col-12">
-                <Navbar color="faded" light>
+                    <Navbar color="faded" light>
                     <NavbarBrand href="/" className="mr-auto"></NavbarBrand>
                     <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
                     <Collapse isOpen={!this.state.collapsed} navbar>
                         <Nav navbar>
                         <NavItem>
                             <NavLink href="/">Home</NavLink>
-                            <NavLink href="#time">Education</NavLink>
-                            <NavLink href="#tech">Skills</NavLink>
-                            <NavLink href="#project">Projects</NavLink>
-                            <NavLink href="#contact">Contact</NavLink>
+                            <NavLink href="#/about">About</NavLink>
+                            <NavLink href="#/education">Education</NavLink>
+                            <NavLink href="#/skills">Skills</NavLink>
+                            <NavLink href="#/project">Projects</NavLink>
+                            <NavLink href="#/contact">Contact</NavLink>
                            
                         </NavItem>
                         </Nav>
@@ -50,7 +51,7 @@ class HeaderComponent extends Component {
                     <h1 className="myName">JEEWAN BHUSAL</h1>
                     <p className="titleStyle">Software Developer</p>
                     <p>
-                    <a href="#about"><Button className="more-button">More About Me</Button></a>
+                    <a href="#/about"><Button className="more-button">More About Me</Button></a>
                     </p>
                 </div>
             </div>

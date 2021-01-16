@@ -1,10 +1,10 @@
 import React from 'react';
 import '../styles/ContactStyle.css';
-import { Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap';
+import { Button, Form, FormGroup, Input } from 'reactstrap';
 
 function Contact() {
     return (
-        <div className="container contact-design" id="contact" data-aos="zoom-in-up">
+        <div className="container contact-design" data-aos="zoom-in-up" id="/contact">
            <div className="row">
                 <div className="col-12">
                     <p className="contactHead">Contact Me</p>
