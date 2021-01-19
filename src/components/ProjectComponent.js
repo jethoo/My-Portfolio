@@ -36,7 +36,7 @@ function Project() {
                 <a href="https://github.com/jethoo/DineIn"><button className="btn-info">Source Code</button></a>
                 </div>
                 <div className="col-12 col-sm-12 col-lg-4" data-aos="flip-right">
-                    <img src="/assets/images/swift2.png" className="project-img img-fluid" alt="work"/>
+                    <img src="/assets/images/swift.png" className="project-img img-fluid" alt="work"/>
                     <a href="https://github.com/jethoo/SimpleSwiftTableView"><button className="btn-info">Source Code</button></a>
                 </div>
             </div>
